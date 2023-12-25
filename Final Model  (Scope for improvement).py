@@ -6,6 +6,7 @@ import random
 import math
 import matplotlib.pyplot as plt
 
+
 class MathTutoringSystem:
     def __init__(self, min_range=1, max_range=10, learning_rate=0.1):
         self.min_range = min_range
