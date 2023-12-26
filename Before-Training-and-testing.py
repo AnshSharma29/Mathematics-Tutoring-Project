@@ -1,8 +1,6 @@
 
 import random
 
-
-
 class MathTutoringSystem:
     def __init__(self, min_range=1, max_range=10):
         self.min_range = min_range
@@ -123,6 +121,7 @@ class MathTutoringSystem:
                         return  # Exit the tutoring session
                     else:
                         break  # Go back to the operation selection
+
 
 
 if __name__ == "__main__":
