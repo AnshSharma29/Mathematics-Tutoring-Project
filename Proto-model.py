@@ -64,6 +64,7 @@ class MathTutoringSystem:
             print(f"Difficulty increased to {next_difficulty} level! Learning Rate: {self.learning_rate}")
             self.difficulty_levels_history.append(next_difficulty)
 
+
     def select_operation(self):
         print("Choose the operation:")
         for i, operation in enumerate(self.operations, start=1):
