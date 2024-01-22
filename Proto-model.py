@@ -25,8 +25,10 @@ class MathTutoringSystem:
         self.operations = ["Addition", "Subtraction", "Multiplication", "Division", "Trigonometry"]
         self.selected_operation = None
 
+
         # Operation-wise count
         self.operation_counts = {op: 0 for op in self.operations}
+
 
         # Lists to store data for plotting accuracy graph
         self.accuracy_history = []
